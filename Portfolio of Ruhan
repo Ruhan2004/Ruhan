@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title> Khandakar Muhtasim Ferdous Ruhan's Website </title>
+    <style>
+    <.purple-color{
+  color:#8845f4;
+}
+body {
+  font-family:sans-serif;
+  color:#103050;
+  line-height:190% ;
+}
+.half-width{
+  width:50%;
+  float:left;
+}
+#first-image{
+  width:50%;
+  padding:15% 00% 20% 30%;
+}
+.primary-btn{
+  color:white;
+  background-color:#8845f4;
+  padding:13px 42px 13px 42px;
+  border-radius:20%;
+  margin-left:30%;
+  text-decoration:none;
+}
+h1 {
+  font-size:2.2em
+}
+.container{
+  padding-left:5%;
+  display:inline-block;
+}
+#second-image{
+  width:74%;
+  padding:15% 00% 00% 8%;
+}
+.experiences{
+  padding:30px;
+  margin:30px;
+  background-color:rgb(238,251,255);
+  border-radius:20px
+}
+.experience-item{
+  padding:10px;
+  border-left:1px solid rgba(137,130,247,.2);
+}
+  </style>
+  </head>
+  <body>
+   <section class="container">
+   <div class="half-width" >
+    <h1> Welcome to <span class="purple-color">Ruhan</span>'s World </h1>
+    <h3> A Student, A New Web Developer </h3>
+    <p> Hello, friends! I am Khandakar Muhtasim Ferdous Ruhan. People call me Ruhan. I live in Bangladesh. I am 15 years old. I have completed my SSC exam this year(2020) and Alhamdulillah achieved a good result. Nowadays, I am learning programming and web developing. To complete it properly, I have found that Programming Hero is the best app and I have created this website after learning the principles of web developing from this app. However, Sololearn has helped me too. </p>
+    <nav>
+    <a class="primary-btn" href= " mailto:kmfardousr@gmail.com " >Contact me</a>
+    </nav>
+   </div>
+   <div class="half-width">
+    <img id="first-image" src="images/chondonbhag.jpg "> 
+   </div>
+   </section>
+   <section class="container">
+   <div class="half-width">
+    <img id="second-image" src="images/reading S H.jpg">
+   </div>
+   <div class="half-width">
+    <h2> Big dream </h2>
+    <h4> Become an Electrical Engineer and Web Developer </h4>
+    <p> I have completed my SSC exam this year.After my HSC exam, I want to get myself admitted into BUET or IUT on the subject EEE. It is the way to achieve my first goal.<br /> I am on the way to fulfill my last aim. I have learnt the basics of HTML already and this is my first website. Hope that you will pray for me so that I can achieve my goals properly.<br /> However, I want to join the navy also. </p>
+   </div>
+   </section>
+   <section class="container exeriences">
+    <h2> Experience </h2>
+   <div class="experience-item">
+    <h3>Olympiad</h3>
+    <p class="purple-color"> I got the 2<sup>nd</sup> runner's up price in the national round of 4<sup>th</sup> BdJSO and participated in the camp.<br /> Besides, I have participated in the national round of BdMO 2020, BdPhO 2019 and BdBO 2019. </p>
+   </div>
+   </section>
+   <footer><p> ©<strong>Khandakar Muhtasim Ferdous Ruhan </strong>, a <em>Programming Hero </em> initiative.</p> </footer>
+  </body>
+</html>
